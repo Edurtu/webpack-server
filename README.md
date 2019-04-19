@@ -15,16 +15,31 @@ Servidor de desarrollo para sitio web multipágina en Html5, JS y CSS. Caracter�
   - Lector y optimización de imágenes
   - Lector de fuentes locales
 
+## Instalación
+
+1) Crea una nueva carpeta para el proyecto
+2) Clona el proyecto:
+
+    ```sh
+      git clone https://github.com/Edurtu/webpack-server.git
+    ```
+
+3) Instala dependencias:
+
+    ```sh
+      npm install
+    ```
+
 ## Consideraciones
 
 - Estructura del proyecto en la carpeta `src`
-- Carpeta de producción 'generada' `dist`, configuración *webpack.prod.js*
+- Carpeta de producción 'generada' `dist`, configuración en *webpack.prod.js*
 
   ```sh
     npm run build
   ```
 
-- Servidor de desarrollo `webpack-dev-server`, configuración *webpack.dev.js*
+- Servidor de desarrollo `webpack-dev-server`, configuración en *webpack.dev.js*
 
   ```sh
     npm start
