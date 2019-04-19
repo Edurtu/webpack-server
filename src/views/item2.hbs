@@ -1,0 +1,29 @@
+{{!-- start page --}}
+{{> ./partials/start.hbs }}
+
+{{!-- COVER PAGE --}}
+<body class="text-center">
+  <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
+    {{!-- header --}}
+    {{> ./partials/header.hbs }}
+
+    {{!-- page content --}}
+    <section>
+      <div class="inner cover">
+        <h1 class="cover-heading">Item2</h1>
+        <p class="lead">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Exercitationem illo dolore illum. Minima, veniam? Iusto placeat laudantium dicta voluptatem saepe eius deserunt, tempora eos nulla vel, vero laborum nesciunt ullam.</p>
+        <img src="./files/images/icon.png" width="20%" alt="Texto Icon.png">
+        <p class="lead mt-3">
+          <a href="#" class="btn btn-lg btn-secondary">Lorem, ipsum.</a>
+        </p>
+      </div>
+    </section>
+    {{!-- end page content --}}
+
+    {{!-- footer --}}
+    {{> ./partials/footer.hbs }}
+  </div>
+{{!-- END COVER PAGE --}}
+
+{{!-- start page --}}
+{{> ./partials/end.hbs }}
