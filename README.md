@@ -21,14 +21,21 @@ A simple development server for multi page site in Html5, JS y CSS. Features:
 
 ## Install
 
-1) Create a new folder
-2) Clone the project:
+1) Install [Node.js](http://nodejs.org/)
+
+2) Clone the *webpack-server* repository:
 
     ```sh
       git clone https://github.com/Edurtu/webpack-server.git
     ```
 
-3) Install dependencies:
+3) Navigate to the *webpack-server* folder
+
+    ```sh
+      cd webpack-server
+    ```
+
+4) Install dependencies:
 
     ```sh
       npm install
@@ -70,14 +77,20 @@ Servidor de desarrollo para sitio web multipágina en Html5, JS y CSS. Caracter�
 
 ## Instalación
 
-1) Crea una nueva carpeta para el proyecto
-2) Clona el proyecto:
+1) Instala [Node.js](http://nodejs.org/)
+2) Clona el repositorio *webpack-server*:
 
     ```sh
       git clone https://github.com/Edurtu/webpack-server.git
     ```
 
-3) Instala dependencias:
+3) Entra en la carpeta *webpack-server*
+
+    ```sh
+      cd webpack-server
+    ```
+
+4) Instala las dependencias:
 
     ```sh
       npm install
