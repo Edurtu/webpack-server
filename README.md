@@ -6,11 +6,13 @@
 
 ## Development server (with webpack)
 
-A simple development server for multi page site in Html5, JS y CSS. Features:
+A simple development server for multi-page site in Html5, JS y CSS. Features:
 
 - A separete folder configuration for `webpack` (production and development)
 
 - It use *HtmlWebpackPlugin* plugin to define each page, title and *activate* class for the active item menu.
+
+- Bootstrap source files. For an easy implementation, the compiled and minified files are used, called in `index.js` and you can change it.
 
 - Some declarete rules (into config webpack):
   - Split code `js`
@@ -62,11 +64,13 @@ A simple development server for multi page site in Html5, JS y CSS. Features:
 
 ## Servidor para desarrollo (con Webpack)
 
-Servidor de desarrollo para sitio web multipágina en Html5, JS y CSS. Características:
+Servidor de desarrollo para sitio web multi-página en Html5, JS y CSS. Características:
 
 - Carpeta de configuración separada en `webpack` (producción y desarrollo).
 
 - Uso del plugin HtmlWebpackPlugin para definir cada página, su título y activación de la opción del menú en la navegación
+
+- Archivos fuente de Bootstrap. Para una implementación fácil se usan los ficheros complilados y minificados, estos son llamados en `index.js` donde puedes cambiarlo.
 
 - Algunas reglas declaradas (config webpack):
   - División de módulos `js`

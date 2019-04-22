@@ -4,9 +4,29 @@
     <h3 class="masthead-brand">LOGO</h3>
     <!-- Comentario que se ve -->
     <nav class="nav nav-masthead justify-content-center">
-      <a class="nav-link {{ htmlWebpackPlugin.options.menu1 }}" href="index.html">Home</a>
-      <a class="nav-link {{ htmlWebpackPlugin.options.menu2 }}" href="item1.html">Item1</a>
-      <a class="nav-link {{ htmlWebpackPlugin.options.menu3 }}" href="item2.html">Item2</a>
+      <ul class="nav justify-content-end">
+        <li class="nav-item">
+          <a class="nav-link {{ htmlWebpackPlugin.options.menu1 }}" href="index.html">Home</a>
+          </li>
+        <li class="nav-item">
+          <a class="nav-link {{ htmlWebpackPlugin.options.menu2 }}" href="item1.html">Item1</a>
+          </li>
+        <li class="nav-item">
+          <a class="nav-link {{ htmlWebpackPlugin.options.menu3 }}" href="item2.html">Item2</a>
+          </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+            aria-haspopup="true" aria-expanded="false">
+            Dropdown
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="#">Action</a>
+            <a class="dropdown-item" href="#">Another action</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#">Something else here</a>
+          </div>
+        </li>
+      </ul>
     </nav>
   </div>
 </header>

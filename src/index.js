@@ -1,13 +1,26 @@
-// imports 
+/**
+ * Import plugins
+ */
+//-- Bootstrap
+import 'jquery/dist/jquery.slim.min.js';
+import 'popper.js/dist/popper.min.js';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import 'bootstrap/dist/js/bootstrap.min.js';
 
-// imports files
+
+/**
+ * Imports project files
+ */
+ //-- Custom styles
 import './styles/style.css';
+//-- Import all images
+const images = importAll(require.context('./files/images/', false, /\.(png|jpe?g|svg)$/));
+
 
 /** 
- * Import all use 'require.context' from webpack
+ * Functions
 */
+//-- Import all use 'require.context' from webpack
 function importAll(r) {
   return r.keys().map(r);
-}
-// Import all images
-const images = importAll(require.context('./files/images/', false, /\.(png|jpe?g|svg)$/));
+};

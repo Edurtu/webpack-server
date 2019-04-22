@@ -3,12 +3,4 @@
  * Description: Add functionality
  * Author: Edurtu
  * License: MIT
- * Libreries: jQuery
  ****************************/
-
- $(document).ready(function(){
-
-
- });
-
- 
