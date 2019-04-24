@@ -20,6 +20,7 @@ A simple development server for multi-page site in Html5, JS y CSS. Features:
   - `Sass` y `Postcss`: autoprefixer y cssnano (minify)
   - Loader and optimize files images
   - Loader fonts files
+  - `Handlebars` template
 
 ## Install
 
@@ -78,6 +79,7 @@ Servidor de desarrollo para sitio web multi-página en Html5, JS y CSS. Caracter
   - `Sass` y `Postcss`: autoprefixer y cssnano (minificación)
   - Lector y optimización de imágenes
   - Lector de fuentes locales
+  - Uso del sistema de plantillas `Handlebars`
 
 ## Instalación
 
